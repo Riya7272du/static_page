@@ -638,8 +638,8 @@ export default function TeraOpsLanding() {
         </div>
       </section> */}
       {/* SmartScale Optimization Engines */}
-      <section id="solution" className="py-20 bg-gradient-to-b from-gray-900 to-gray-950 text-white relative overflow-hidden">
-        {/* Background Elements */}
+      {/* <section id="solution" className="py-20 bg-gradient-to-b from-gray-900 to-gray-950 text-white relative overflow-hidden">
+
         <div className="absolute inset-0 opacity-20">
           <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-r from-blue-900/30 to-purple-900/30 rounded-full blur-3xl"></div>
           <div className="absolute bottom-1/4 right-1/3 w-80 h-80 bg-gradient-to-r from-indigo-900/30 to-cyan-900/30 rounded-full blur-3xl"></div>
@@ -658,11 +658,11 @@ export default function TeraOpsLanding() {
             </p>
           </div>
 
-          {/* Interactive Visualization */}
+
           <div className="relative min-h-[500px] flex flex-col lg:flex-row items-center justify-center gap-12">
-            {/* Visualization Canvas */}
+
             <div className="relative w-full lg:w-1/2 aspect-square max-w-xl">
-              {/* Central Hub */}
+
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-40 h-40 rounded-full bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center shadow-2xl animate-pulse-slow">
                 <div className="text-center">
                   <Brain className="w-10 h-10 text-white mx-auto mb-2" />
@@ -671,7 +671,7 @@ export default function TeraOpsLanding() {
                 </div>
               </div>
 
-              {/* Optimization Engines */}
+
               {[
                 {
                   id: 'storage',
@@ -759,13 +759,13 @@ export default function TeraOpsLanding() {
                   <engine.icon className="w-8 h-8 text-white mb-2" />
                   <span className="text-xs text-white font-medium text-center group-hover:text-blue-200 transition-colors">{engine.title}</span>
 
-                  {/* Connection line to center */}
+
                   <div className="absolute top-1/2 left-1/2 w-3/4 h-1 origin-left bg-gradient-to-r from-blue-500/20 to-transparent transform -translate-x-full -translate-y-1/2"></div>
                 </div>
               ))}
             </div>
 
-            {/* Details Panel */}
+
             <div className="w-full lg:w-1/2">
               <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/80 backdrop-blur-sm rounded-2xl border border-gray-700 p-8">
                 <div className="flex items-center mb-6">
@@ -817,7 +817,7 @@ export default function TeraOpsLanding() {
             </div>
           </div>
 
-          {/* Engine Capabilities */}
+
           <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
@@ -878,131 +878,178 @@ export default function TeraOpsLanding() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <section id="solution" className="py-20 bg-gradient-to-b from-gray-900 to-gray-950 text-white relative overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-r from-blue-900/30 to-purple-900/30 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-1/4 right-1/3 w-80 h-80 bg-gradient-to-r from-indigo-900/30 to-cyan-900/30 rounded-full blur-3xl"></div>
+          <div className="absolute top-1/3 right-1/4 w-64 h-64 bg-gradient-to-r from-violet-900/30 to-pink-900/30 rounded-full blur-3xl"></div>
+        </div>
 
-      {/* Results & Success Stories */}
-      <section id="results" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Results That Enable Efficient Growth</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Our optimization delivers immediate cost savings that companies reinvest into product growth and innovation, creating a sustainable competitive advantage.
+            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-indigo-700 rounded-full px-4 py-1.5 mb-6">
+              <Zap className="w-4 h-4 text-white" />
+              <span className="text-white text-sm font-medium">Intelligent Cloud Optimization</span>
+            </div>
+            <h2 className="text-4xl font-bold mb-6">The Optimization Engine Ecosystem</h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              TeraOps SmartScale transforms cloud infrastructure through six specialized engines working in concert to maximize efficiency and minimize waste.
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 mb-16">
-            {/* Success Stories */}
-            <div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-8">Customer Impact Examples</h3>
+          <div className="relative flex flex-col lg:flex-row items-center justify-center gap-12">
+            <div className="relative w-[360px] h-[360px] mx-auto">
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-center shadow-xl z-10">
+                <div>
+                  <Brain className="w-8 h-8 text-white mx-auto mb-1" />
+                  <div className="text-white font-semibold text-sm">SmartCore</div>
+                  <div className="text-[10px] text-blue-200">AI Optimization Hub</div>
+                </div>
+              </div>
 
-              <div className="space-y-6">
-                {[
-                  {
-                    company: "EdTech Platform",
-                    industry: "Education Technology",
-                    achievement: "$1.5M Annual Saving",
-                    impact: "36% increase in EBITDA",
-                    description: "Optimized compute and storage costs, enabling reinvestment in product development and market expansion."
-                  },
-                  {
-                    company: "FinTech Startup",
-                    industry: "Financial Services",
-                    achievement: "$252K Annual Savings",
-                    impact: "Reinvested in product growth",
-                    description: "Streamlined data pipeline costs and optimized AI workloads, freeing up capital for innovation initiatives."
-                  },
-                  {
-                    company: "MarTech Platform",
-                    industry: "Marketing Technology",
-                    achievement: "$120K Annual Savings",
-                    impact: "Enabled profitable growth",
-                    description: "Right-sized infrastructure while maintaining performance, improving unit economics and scalability."
-                  }
-                ].map((story, index) => (
-                  <div key={index} className="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-md transition-shadow">
-                    <div className="flex justify-between items-start mb-3">
-                      <div>
-                        <h4 className="font-semibold text-gray-900 text-lg">{story.company}</h4>
-                        <p className="text-sm text-gray-600">{story.industry}</p>
-                      </div>
-                      <div className="text-right">
-                        <div className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium mb-1">
-                          {story.achievement}
-                        </div>
-                        <div className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium">
-                          {story.impact}
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-gray-700">{story.description}</p>
+              {[{
+                icon: HardDrive, title: "Storage Engine", color: "from-pink-600 to-purple-600", style: { top: '0%', left: '50%' }
+              },
+              { icon: Database, title: "Data Engine", color: "from-purple-600 to-pink-500", style: { top: '20%', left: '90%' } },
+              { icon: Network, title: "Network Engine", color: "from-blue-600 to-purple-600", style: { top: '70%', left: '90%' } },
+              { icon: Brain, title: "AI Engine", color: "from-cyan-500 to-blue-600", style: { top: '100%', left: '50%' } },
+              { icon: Cpu, title: "Compute Engine", color: "from-orange-500 to-red-600", style: { top: '70%', left: '10%' } },
+              { icon: Settings, title: "Admin Engine", color: "from-violet-600 to-purple-600", style: { top: '20%', left: '10%' } }
+              ].map((engine, index) => (
+                <div
+                  key={index}
+                  className={`absolute transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-2xl bg-gradient-to-br ${engine.color} flex flex-col items-center justify-center p-2 text-center shadow-lg`}
+                  style={engine.style}
+                >
+                  <engine.icon className="w-6 h-6 text-white mb-1" />
+                  <span className="text-xs font-medium text-white leading-tight">{engine.title}</span>
+                </div>
+              ))}
+            </div>
+
+            <div className="w-full lg:w-1/2">
+              <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/80 backdrop-blur-sm rounded-2xl border border-gray-700 p-8">
+                <div className="flex items-center mb-6">
+                  <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-indigo-700 rounded-xl flex items-center justify-center mr-4">
+                    <Zap className="w-6 h-6 text-white" />
                   </div>
-                ))}
+                  <h3 className="text-2xl font-semibold text-white">Optimization Engine Ecosystem</h3>
+                </div>
+
+                <p className="text-gray-300 mb-6 leading-relaxed">
+                  The TeraOps SmartScale system employs six specialized engines that continuously monitor and optimize every aspect of your cloud infrastructure. These engines work synergistically to identify inefficiencies and implement optimizations in real-time.
+                </p>
+
+                <div className="grid grid-cols-2 gap-4 mb-6">
+                  <div className="bg-gray-800/50 rounded-lg p-4 border border-gray-700">
+                    <div className="flex items-center mb-2">
+                      <div className="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center mr-2">
+                        <ArrowUp className="w-4 h-4 text-blue-400" />
+                      </div>
+                      <span className="text-white font-medium">Performance</span>
+                    </div>
+                    <p className="text-gray-400 text-sm">Maintain optimal resource utilization while reducing costs</p>
+                  </div>
+
+                  <div className="bg-gray-800/50 rounded-lg p-4 border border-gray-700">
+                    <div className="flex items-center mb-2">
+                      <div className="w-8 h-8 bg-green-500/20 rounded-full flex items-center justify-center mr-2">
+                        <DollarSign className="w-4 h-4 text-green-400" />
+                      </div>
+                      <span className="text-white font-medium">Cost Savings</span>
+                    </div>
+                    <p className="text-gray-400 text-sm">Average 35%+ reduction in cloud spending</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between bg-gray-800/30 rounded-lg p-4 border border-gray-700">
+                  <div className="flex items-center">
+                    <Shield className="w-5 h-5 text-blue-400 mr-2" />
+                    <span className="text-white text-sm">Continuous Optimization</span>
+                  </div>
+                  <div className="flex">
+                    {[1, 2, 3, 4, 5].map((i) => (
+                      <div key={i} className="w-2 h-2 bg-blue-500 rounded-full mx-0.5"></div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      {/* Results & Success Stories */}
+
+      <section id="results" className="py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-gray-900 mb-6">Results That Enable Efficient Growth</h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              TeraOps SmartScale helps teams uncover hidden savings and drive cost-efficient operations across their cloud environments.
+            </p>
+          </div>
+
+          {/* Centered Metrics Panel */}
+          <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200 mb-20">
+            <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Business Impact Visualization</h3>
+
+            {/* Static Bar Chart */}
+            <div className="mb-8">
+              <h4 className="text-lg font-semibold text-gray-900 mb-4 text-center">Cloud Optimization Focus</h4>
+              <div className="flex space-x-12 items-end justify-center">
+                {/* EBITDA */}
+                <div className="text-center">
+                  <div className="relative">
+                    <div className="w-20 h-28 bg-gradient-to-t from-cyan-400 to-cyan-500 rounded-lg mb-2"></div>
+                    <div className="absolute top-2 left-1/2 transform -translate-x-1/2 text-white text-xs font-medium">EBITDA</div>
+                  </div>
+                  <p className="text-sm font-medium text-gray-700 mt-2">Before</p>
+                </div>
+
+                {/* Cloud Savings */}
+                <div className="text-center">
+                  <div className="relative">
+                    <div className="w-20 h-36 bg-gradient-to-t from-green-400 to-green-500 rounded-lg mb-2"></div>
+                    <div className="absolute top-2 left-1/2 transform -translate-x-1/2 text-white text-xs font-medium">Cloud Savings</div>
+                  </div>
+                  <p className="text-sm font-medium text-gray-700 mt-2">After</p>
+                </div>
+              </div>
+
+              <div className="flex justify-center space-x-6 mt-4">
+                <div className="flex items-center space-x-2">
+                  <div className="w-4 h-4 bg-cyan-500 rounded"></div>
+                  <span className="text-sm text-gray-700">EBITDA Indicator</span>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <div className="w-4 h-4 bg-green-500 rounded"></div>
+                  <span className="text-sm text-gray-700">Cloud Cost Savings</span>
+                </div>
               </div>
             </div>
 
-            {/* Growth Impact Visualization */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-200">
-              <h3 className="text-2xl font-bold text-gray-900 mb-8">Business Impact Metrics</h3>
-
-              {/* Before/After Chart Representation */}
-              <div className="mb-8">
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">EBITDA & Cloud Cost Impact</h4>
-                <div className="flex space-x-8 items-end justify-center">
-                  {/* Before */}
-                  <div className="text-center">
-                    <div className="relative">
-                      <div className="w-20 h-32 bg-gradient-to-t from-red-400 to-red-500 rounded-t-lg mb-2"></div>
-                      <div className="w-20 h-24 bg-gradient-to-t from-cyan-400 to-cyan-500 rounded-b-lg"></div>
-                      <div className="absolute top-4 left-1/2 transform -translate-x-1/2 text-white text-xs font-medium">16%</div>
-                      <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-white text-xs font-medium">14%</div>
-                    </div>
-                    <p className="text-sm font-medium text-gray-700 mt-2">Before</p>
-                  </div>
-
-                  {/* After */}
-                  <div className="text-center">
-                    <div className="relative">
-                      <div className="w-20 h-20 bg-gradient-to-t from-green-400 to-green-500 rounded-t-lg mb-2"></div>
-                      <div className="w-20 h-36 bg-gradient-to-t from-cyan-400 to-cyan-500 rounded-b-lg"></div>
-                      <div className="absolute top-2 left-1/2 transform -translate-x-1/2 text-white text-xs font-medium">10%</div>
-                      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white text-xs font-medium">19%</div>
-                    </div>
-                    <p className="text-sm font-medium text-gray-700 mt-2">After</p>
-                  </div>
+            {/* Expertise Summary */}
+            <div className="bg-white rounded-lg p-6 border border-blue-200">
+              <h4 className="font-semibold text-gray-900 mb-4 text-center">Expertise at Work</h4>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                  <h5 className="text-sm font-medium text-blue-600 mb-2">Certified Team</h5>
+                  <ul className="text-xs text-gray-600 space-y-1">
+                    <li>• Senior Cloud Engineers</li>
+                    <li>• Certified Optimization Experts</li>
+                    <li>• 100+ years of combined experience</li>
+                  </ul>
                 </div>
-
-                <div className="flex justify-center space-x-6 mt-4">
-                  <div className="flex items-center space-x-2">
-                    <div className="w-4 h-4 bg-cyan-500 rounded"></div>
-                    <span className="text-sm text-gray-700">EBITDA (% of Revenue)</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <div className="w-4 h-4 bg-green-500 rounded"></div>
-                    <span className="text-sm text-gray-700">Cloud Cost (% of Revenue)</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Our Expertise Section */}
-              <div className="bg-white rounded-lg p-6 border border-blue-200">
-                <h4 className="font-semibold text-gray-900 mb-4">Our Expertise</h4>
-                <div className="grid grid-cols-1 gap-4">
-                  <div>
-                    <h5 className="text-sm font-medium text-blue-600 mb-2">Expert Team</h5>
-                    <ul className="text-xs text-gray-600 space-y-1">
-                      <li>• Former CTOs & VPs of Cloud Operations</li>
-                      <li>• Certified Cloud Professionals</li>
-                      <li>• 200+ years of combined experience</li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h5 className="text-sm font-medium text-blue-600 mb-2">Proven Results</h5>
-                    <ul className="text-xs text-gray-600 space-y-1">
-                      <li>• Average 35%+ cloud cost reduction</li>
-                      <li>• Fast time-to-value (4-8 weeks)</li>
-                      <li>• Cloud infrastructure & application profiling</li>
-                    </ul>
-                  </div>
+                <div>
+                  <h5 className="text-sm font-medium text-blue-600 mb-2">Reliable Framework</h5>
+                  <ul className="text-xs text-gray-600 space-y-1">
+                    <li>• Real-world tested methodology</li>
+                    <li>• Trusted by growth-stage teams</li>
+                    <li>• Transparent savings insights</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -1011,10 +1058,10 @@ export default function TeraOpsLanding() {
           {/* Trust Indicators */}
           <div className="grid md:grid-cols-4 gap-8 text-center">
             {[
-              { label: "Cloud Accounts Optimized", value: "1,200+" },
-              { label: "Total Savings Delivered", value: "$180M+" },
-              { label: "Average Cost Reduction", value: "35%+" },
-              { label: "Implementation Success", value: "94%" }
+              { label: "Cloud Projects Analyzed", value: "100+" },
+              { label: "Optimization Reports Delivered", value: "50+" },
+              { label: "Average Engagement Time", value: "4–6 weeks" },
+              { label: "Client Retention Rate", value: "93%" }
             ].map((stat, i) => (
               <div key={i}>
                 <div className="text-3xl font-bold text-blue-600 mb-2">{stat.value}</div>
@@ -1022,6 +1069,11 @@ export default function TeraOpsLanding() {
               </div>
             ))}
           </div>
+
+          {/* Disclaimer */}
+          <p className="text-center text-xs text-gray-500 mt-8">
+            * The examples and metrics presented are generalized representations of optimization projects. Individual results may vary based on cloud usage, scale, and implementation.
+          </p>
         </div>
       </section>
 
