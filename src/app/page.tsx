@@ -45,7 +45,7 @@ function TestimonialCarousel() {
     setCurrentTestimonial((prev) => (prev - 1 + testimonials.length) % testimonials.length);
   };
 
-  const goToTestimonial = (index) => {
+  const goToTestimonial = (index: number) => {
     setCurrentTestimonial(index);
   };
 
@@ -153,7 +153,7 @@ export default function TeraOpsLanding() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
   };
 
@@ -161,7 +161,7 @@ export default function TeraOpsLanding() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setFormSubmitted(true);
     setTimeout(() => setFormSubmitted(false), 5000);
